@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.itmuch.cloud</groupId>
+  <artifactId>spring-cloud-alibaba-follow-me</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>microservice-provider-user</module>
+    <module>microservice-nacos-config</module>
+    <module>microservice-consumer-movie-ribbon</module>
+    <module>microservice-consumer-movie-ribbon-sentinel</module>
+    <module>microservice-consumer-movie-ribbon-sentinel-block-handler</module>
+    <module>microservice-consumer-movie-ribbon-sentinel-annotation</module>
+  </modules>
+</project>
